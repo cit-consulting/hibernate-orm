@@ -47,7 +47,6 @@ import org.hibernate.bytecode.enhance.spi.Enhancer;
  * @author Luis Barreiro
  */
 @Mojo(name = "enhance", defaultPhase = LifecyclePhase.COMPILE, requiresDependencyResolution = ResolutionScope.COMPILE_PLUS_RUNTIME)
-@Execute(goal = "enhance", phase = LifecyclePhase.COMPILE)
 public class MavenEnhancePlugin extends AbstractMojo {
 
 	/**
